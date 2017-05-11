@@ -41,7 +41,7 @@ body{
   display: flex;
   margin-bottom: 15px;
   .date{
-    background: no-repeat center url('/images/background-calendrier.png') white;
+    background: no-repeat center url('../images/background-calendrier.png') white;
     -webkit-align-items: center;
     align-items: center;
     display: -webkit-flex;
@@ -87,7 +87,7 @@ body{
       background: orange;
     }
     &.empty{
-      background: no-repeat center url('/images/background-pas-de-seances.png') transparent;
+      background: no-repeat center url('../images/background-pas-de-seances.png') transparent;
       cursor: auto;
       & > *{
         display: none !important;
@@ -111,7 +111,7 @@ body{
         padding-left: 25px;
         position: relative;
         &:before{
-          background: no-repeat center url('/images/picto-horaire.png');
+          background: no-repeat center url('../images/picto-horaire.png');
           content: '';
           height: 20px;
           left: 0;
@@ -137,13 +137,13 @@ body{
         }
         &.taken{
           &:before{
-            background: no-repeat center url('/images/picto-demande-en-attente.png');
+            background: no-repeat center url('../images/picto-demande-en-attente.png');
           }
         }
         &.blocked,
         &.free{
           &:before{
-            background: no-repeat center url('/images/picto-pas-de-demande.png');
+            background: no-repeat center url('../images/picto-pas-de-demande.png');
           }
         }
       }

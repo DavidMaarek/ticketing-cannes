@@ -50,7 +50,7 @@ body {
 }
 /* line 43, ../sass/main.scss */
 .container-date .date {
-  background: no-repeat center url("/images/background-calendrier.png") white;
+  background: no-repeat center url("../images/background-calendrier.png") white;
   -webkit-align-items: center;
   align-items: center;
   display: -webkit-flex;
@@ -103,7 +103,7 @@ body {
 }
 /* line 89, ../sass/main.scss */
 .container-seances .seance-info.empty {
-  background: no-repeat center url("/images/background-pas-de-seances.png") transparent;
+  background: no-repeat center url("../images/background-pas-de-seances.png") transparent;
   cursor: auto;
 }
 /* line 92, ../sass/main.scss */
@@ -135,7 +135,7 @@ body {
 }
 /* line 113, ../sass/main.scss */
 .container-seances .seance-info .info .horaire:before {
-  background: no-repeat center url("/images/picto-horaire.png");
+  background: no-repeat center url("../images/picto-horaire.png");
   content: '';
   height: 20px;
   left: 0;
@@ -163,11 +163,11 @@ body {
 }
 /* line 139, ../sass/main.scss */
 .container-seances .seance-info .info .dispo.taken:before {
-  background: no-repeat center url("/images/picto-demande-en-attente.png");
+  background: no-repeat center url("../images/picto-demande-en-attente.png");
 }
 /* line 145, ../sass/main.scss */
 .container-seances .seance-info .info .dispo.blocked:before, .container-seances .seance-info .info .dispo.free:before {
-  background: no-repeat center url("/images/picto-pas-de-demande.png");
+  background: no-repeat center url("../images/picto-pas-de-demande.png");
 }
 /* line 150, ../sass/main.scss */
 .container-seances .seance-info .info .high_on {

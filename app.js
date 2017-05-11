@@ -6,12 +6,12 @@ app.controller('planningController', ['$http', function($http) {
     /* GET DATA */
     ctrl.point = 7;
 
-    var allSeances = $http.get("/data/jours.json");
+    var allSeances = $http.get("data/jours.json");
     allSeances.then(function(response){
         ctrl.calendrier = response.data;
     });
 
-    var allFilms = $http.get("/data/films.json");
+    var allFilms = $http.get("data/films.json");
     allFilms.then(function(response){
         ctrl.films = response.data;
     });
